@@ -41,10 +41,21 @@ function App() {
 
 
       <GridItem>
+        <Flex
+        justify="center"
+            align="center"
+        >
         <Box boxSize='sm'>
           <Heading as="h2">Daniel Wirenfeldt</Heading>
+          <p>lorem ipsum dolor</p>
+        </Box>
+
+        <Box>
+
           <Image src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
         </Box>
+
+        </Flex>
       </GridItem>
 
 
