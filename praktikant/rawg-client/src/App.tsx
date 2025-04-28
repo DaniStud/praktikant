@@ -60,6 +60,13 @@ function App() {
 
 
       <GridItem>
+
+        <Flex
+        justify="center"
+        align="center"
+        direction="column"
+        >
+
         <Box>
           <Heading as="h3">
             Projekt
@@ -69,6 +76,8 @@ function App() {
         <Box>
           <Image src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
         </Box>
+        </Flex>
+
       </GridItem>
 
     </Grid>
